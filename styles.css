@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+
+body {
+    margin: 0;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    color: #0f0f0f;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+h1, p {
+    text-shadow: 0 0 2px black;
+}
+.btn {
+    border: none;
+    padding: .5em .75em;
+    font-size: 1.15rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: .5em;
+    text-transform: uppercase;
+
+}
+
+.increment{
+    background: red;
+}
+
+.save {
+    background: green;
+}
+
+.card {
+    max-width: 80%;
+    margin: 0 auto;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlfN5RZH8oqNfvdNX-o_2cr5JffVc33SewYw&s");
+    background-size: cover;
+}
