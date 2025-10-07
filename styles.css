@@ -16,6 +16,7 @@ body {
     color: #0f0f0f;
     text-align: center;
     color: #f4f4f4;
+    padding: 2rem;
 }
 
 h1, p {
@@ -41,6 +42,7 @@ h1, p {
 }
 
 .card {
+    padding: 3rem;
     max-width: 80%;
     margin: 0 auto;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlfN5RZH8oqNfvdNX-o_2cr5JffVc33SewYw&s");
